@@ -26,7 +26,7 @@ it("the value of the content-type header is application/json; charset=utf-8", as
   chai.expect(response.headers["content-type"]).to.be.equal("application/json; charset=utf-8");
 });
 
-it("the content of the response body is the array of 10 users", async () => {
+it("the content of the response body correspond to the data that was sent", async () => {
   chai.expect(response.data.title).to.be.equal("foo");
     chai.expect(response.data.body).to.be.equal("bar");
     chai.expect(response.data.userId).to.be.equal(1);
