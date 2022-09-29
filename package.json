@@ -1,0 +1,25 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-scenario.js",
+  "scripts": {
+    "test": "mocha tests/post-scenario.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dziana-babrova/Api-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dziana-babrova/Api-tests/issues"
+  },
+  "homepage": "https://github.com/dziana-babrova/Api-tests#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "chai-arrays": "^2.2.0",
+    "mocha": "^10.0.0"
+  }
+}
